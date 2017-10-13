@@ -7,11 +7,14 @@
 //
 
 #import "SDAppDelegate.h"
+@import TestPod2;
 
 @implementation SDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    SDViewController2 *c = [SDViewController2 new];
+    c.str1 = @"Test";
     // Override point for customization after application launch.
     return YES;
 }

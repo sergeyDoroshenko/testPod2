@@ -10,5 +10,6 @@
 @interface SDViewController2 : UIViewController
 
 @property (nonatomic, strong) NSString *str1;
+@property (nonatomic, strong) NSString *str2;
 
 @end
